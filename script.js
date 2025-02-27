@@ -91,11 +91,11 @@ function sendMessage() {
         loadingElement.style.display = 'block';
     }
 
-    const apiKey = '你的API Key';
-    const endpoint = 'https://api.deepseek.com/chat/completions';
+    const apiKey = 'sk-atkhxvrohgzsbzhtvocyaryzwcqpghfpkptzhozsuutgkphf';
+    const endpoint = 'https://api.siliconflow.cn/v1';
 
     const payload = {
-        model: "deepseek-chat",
+        model: "deepseek-ai/DeepSeek-R1",
         messages: [
             { role: "system", content: "You are a helpful assistant" },
             { role: "user", content: message }
